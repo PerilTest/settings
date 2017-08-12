@@ -4,7 +4,7 @@
   },
   "rules": {
     "pull_request": "PerilTest/dangerfiles@org/spellcheck.ts",
-    "issues.created": "PerilTest/dangerfiles@org/hello-world.ts"
+    "issues.opened": "PerilTest/dangerfiles@org/hello-world.ts"
   },
   "repos": {
     "PerilTest/PerilPRTester": {
