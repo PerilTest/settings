@@ -1,0 +1,15 @@
+{
+  "settings": {
+  },
+  "rules": {
+  
+  },
+  "repos": {
+    "PerilTest/PerilPRTester": {
+      "issues.opened": "artsy/artsy-danger@dangerfile.ts"
+    },
+    "PerilTest/org": {
+      "pull_request": "danger/pr.js"
+    }
+  }
+}
