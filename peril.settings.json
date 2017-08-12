@@ -2,7 +2,8 @@
   "settings": {
   },
   "rules": {
-  
+    "pull_request": "PerilTest/dangerfiles@org/spellcheck.ts",
+    "issues.updated": "PerilTest/dangerfiles@org/hello-world.ts"
   },
   "repos": {
     "PerilTest/PerilPRTester": {
