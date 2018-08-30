@@ -3,6 +3,9 @@
     "pull_request": "PerilTest/dangerfiles@org/spellcheck.ts",
     "issues.opened": "PerilTest/dangerfiles@org/hello-world.ts"
   },
+  "tasks": {
+    "logger": "logger.ts"
+  },
   "repos": {
     "PerilTest/PerilPRTester": {
       "issues.opened": "artsy/artsy-danger@dangerfile.ts"
