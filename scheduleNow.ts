@@ -3,5 +3,5 @@ import { Issues } from "github-webhook-event-types"
 
 export default async (issues: Issues) => {
   console.log("Doing some work")
-  await peril.runTask("logger", "in 10 seconds", {})
+  await peril.runTask("logger", "1 minute", {})
 }
