@@ -1,7 +1,8 @@
 {
   "rules": {
     "pull_request": "PerilTest/dangerfiles@org/spellcheck.ts",
-    "issues.opened": "PerilTest/dangerfiles@org/hello-world.ts"
+    "issues.opened": "PerilTest/dangerfiles@org/hello-world.ts",
+    "issues": "scheduleNow.ts"
   },
   "tasks": {
     "logger": "logger.ts"
