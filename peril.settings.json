@@ -2,7 +2,8 @@
   "rules": {
     "pull_request": "PerilTest/dangerfiles@org/spellcheck.ts",
     "issues.opened": "PerilTest/dangerfiles@org/hello-world.ts",
-    "issues": "scheduleNow.ts"
+    "issues": "scheduleNow.ts",
+    "pull_request.closed": "loadsmart/peril-settings@rules/delete-merged-pr-branch.ts",
   },
   "tasks": {
     "logger": "logger.ts"
@@ -13,6 +14,9 @@
     },
     "PerilTest/org": {
       "pull_request": "danger/pr.js"
+    },
+    "PerilTest/settings": {
+      "pull_request": "loadsmart/peril-settings@rules/python-prs.ts"
     }
   }
 }
