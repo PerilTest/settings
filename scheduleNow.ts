@@ -6,7 +6,7 @@ import { IncomingWebhook } from "@slack/client"
 export default async (issues: Issues) => {
   
   await peril.runTask("logger", "in 1 minutes", { time: 1 })
-  await peril.runTask("logger", "in 5 minutes", { time: 2 })
+  await peril.runTask("logger", "in 5 minutes", { time: 5 })
   await peril.runTask("logger", "in 10 minutes", { time: 10 })
   await peril.runTask("logger", "in 20 minutes", { time: 20 })
   
