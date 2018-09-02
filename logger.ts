@@ -22,7 +22,7 @@ export default (data: any) => {
       attachments: [
         {
           color: "good",
-          title: `Ping: ${data}`,
+          title: `Ping: \`${JSON.stringify(data)}\``,
         },
       ],
     }
