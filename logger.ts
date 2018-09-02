@@ -29,5 +29,5 @@ export default (data: any) => {
 
     const url = peril.env.SLACK_RFC_WEBHOOK_URL || ""
     const webhook = new IncomingWebhook(url)
-    webhook.send(data)
+    webhook.send(message)
 }
