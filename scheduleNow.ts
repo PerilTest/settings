@@ -23,7 +23,7 @@ export default async (issues: Issues) => {
 
   const url = peril.env.SLACK_RFC_WEBHOOK_URL || ""
   const webhook = new IncomingWebhook(url)
-  await webhook.send(data)
+  await webhook.send(message)
 
   console.log("Triggering the logger")
   
