@@ -7,6 +7,7 @@
     "issues": "scheduleNow.ts",
     "pull_request.closed": "loadsmart/peril-settings@rules/delete-merged-pr-branch.ts"
   },
+   /**
   "scheduler": {
     "hourly": "hourly",
     "daily": "daily",
@@ -14,6 +15,16 @@
     "monday-morning-est": "monday",
     "friday-morning-est": "friday"
   },
+
+  "tasks": {
+    "logger": "logger.ts",
+    "hourly": "logs/hourly.ts",
+    "daily": "logs/daily.ts",
+    "weekly": "logs/weekly.ts",
+    "monday": "logs/monday.ts",
+    "friday": "logs/friday.ts"
+  },
+  **/
   "repos": {
     "PerilTest/PerilPRTester": {
       "issues.opened": "artsy/artsy-danger@dangerfile.ts"
