@@ -14,16 +14,6 @@
     "monday-morning-est": "monday",
     "friday-morning-est": "friday"
   },
-  /**
-  "tasks": {
-    "logger": "logger.ts",
-    "hourly": "logs/hourly.ts",
-    "daily": "logs/daily.ts",
-    "weekly": "logs/weekly.ts",
-    "monday": "logs/monday.ts",
-    "friday": "logs/friday.ts"
-  },
-  **/
   "repos": {
     "PerilTest/PerilPRTester": {
       "issues.opened": "artsy/artsy-danger@dangerfile.ts"
