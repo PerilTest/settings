@@ -1,4 +1,4 @@
-import {danger} from "danger"
+import {danger, message} from "danger"
 
 export default async (things: any) => {
   console.log(danger)
@@ -6,3 +6,4 @@ export default async (things: any) => {
 }
 
 console.log("Go")
+message("Hi!")
