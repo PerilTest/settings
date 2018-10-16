@@ -7,6 +7,19 @@
     "issues": "scheduleNow.ts",
     "pull_request.closed": "loadsmart/peril-settings@rules/delete-merged-pr-branch.ts"
   },
+  "repos": {
+    "PerilTest/PerilPRTester": {
+      "issues.opened": "artsy/artsy-danger@dangerfile.ts"
+    },
+    "PerilTest/org": {
+      "pull_request": "danger/pr.js"
+    },
+    "PerilTest/settings": {
+      "pull_request": "loadsmart/peril-settings@rules/python-prs.ts"
+    }
+  }
+}
+
    /**
   "scheduler": {
     "hourly": "hourly",
@@ -25,15 +38,3 @@
     "friday": "logs/friday.ts"
   },
   **/
-  "repos": {
-    "PerilTest/PerilPRTester": {
-      "issues.opened": "artsy/artsy-danger@dangerfile.ts"
-    },
-    "PerilTest/org": {
-      "pull_request": "danger/pr.js"
-    },
-    "PerilTest/settings": {
-      "pull_request": "loadsmart/peril-settings@rules/python-prs.ts"
-    }
-  }
-}
