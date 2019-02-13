@@ -1,2 +1,2 @@
 # settings
-Peril settings for this repo
+Peril setatings for this repo
