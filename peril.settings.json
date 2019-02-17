@@ -1,10 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/danger/peril/master/peril-settings-json.schema",
-
   "rules": {
     "pull_request": "PerilTest/dangerfiles@org/spellcheck.ts",
     "issues.opened": "PerilTest/dangerfiles@org/hello-world.ts",
-    "issues": "scheduleNow.ts",
+    "issues": ["scheduleNow.ts", "logStuff.ts"],
     "pull_request.closed": "loadsmart/peril-settings@rules/delete-merged-pr-branch.ts"
   },
   "repos": {
